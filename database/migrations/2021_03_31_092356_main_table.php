@@ -26,6 +26,6 @@ class MainTable extends Migration
      */
     public function down()
     {
-        //
+      Schema::dropIfExists('main');
     }
 }
